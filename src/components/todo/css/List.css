@@ -1,0 +1,84 @@
+.container {
+    margin: auto;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.tasks-list {
+    padding-top: 10px;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.task-item.completed {
+    background: #f4f4f4;
+}
+
+.task-title {
+    display: flex;
+    align-items: center;
+}
+
+.task-title input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.task-title span {
+    font-size: 1em;
+}
+
+.task-time {
+    font-size: 0.8em;
+    color: #777;
+}
+
+.task-actions {
+    display: flex;
+}
+
+.task-actions button {
+    background: none;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.btn-light {
+    color: #555;
+}
+
+.btn-danger {
+    color: #d9534f;
+}
+
+.btn-success {
+    color: #5cb85c;
+}
+
+.imgNoData {
+    margin: 15px;
+    width: 80px;
+    height: 55px;
+}
+
+.checkbox-column {
+    max-width: 100px;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.overdue {
+    color: red;
+}

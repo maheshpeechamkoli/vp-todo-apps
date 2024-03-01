@@ -1,0 +1,21 @@
+.fas.fa-times-circle:hover {
+    color: #e96666;
+}
+
+.fas.fa-times-circle {
+    color: #DE3163;
+}
+
+.formSection {
+    font-weight: 400;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 20px
+}
+
+.closeButton {
+    cursor: pointer;
+    font-size: 1.2rem;
+}
