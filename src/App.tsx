@@ -3,6 +3,7 @@ import Add from './components/todo/Add';
 import Navbar from './components/navbar/Navbar';
 import Update from './components/todo/Update';
 import List from './components/todo/List';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/add" element={<Add />} />
           <Route path="/update" element={<Update />} />
         </Routes>
+        <ToastContainer />
       </BrowserRouter>
     </>
   );

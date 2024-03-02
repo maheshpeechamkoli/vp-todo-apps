@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import './css/List.css';
 import { useEffect, useState } from 'react';
 import { Todo } from '../../interface/todo';
@@ -108,7 +108,6 @@ function List() {
       <Link to="/add" className="btn btn-primary mb-1">
         Add +
       </Link>
-      <ToastContainer />
       <div className="tasks-list">{renderTasks()}</div>
     </div>
   );
