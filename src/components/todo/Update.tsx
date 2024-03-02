@@ -1,5 +1,4 @@
 import { useLocation } from 'react-router-dom';
-import { ToastContainer } from 'react-toastify';
 import TodoForm from './TodoForm';
 
 function Update() {
@@ -8,7 +7,6 @@ function Update() {
   return (
     <>
       <TodoForm isUpdate todoData={todoData} />;
-      <ToastContainer />
     </>
   );
 }
