@@ -82,3 +82,10 @@
 .overdue {
     color: red;
 }
+
+.text-head {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+    font-weight: 600;
+}
