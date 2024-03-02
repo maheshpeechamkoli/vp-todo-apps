@@ -28,5 +28,6 @@ export const getAllTodos = async (): Promise<Todo[]> => {
 };
 
 export const deleteTodo = async (id: string): Promise<void> => {
-  await axios.delete(`${BASE_URL}/todo/delete/${id}`);
+  const response = await axios.delete(`${BASE_URL}/todo/delete/${id}`);
+  return response.data;
 };
