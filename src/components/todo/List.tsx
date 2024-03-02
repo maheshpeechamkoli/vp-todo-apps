@@ -51,7 +51,7 @@ function List() {
   const renderTasks = (tasks: Todo[], doneStatus: boolean) => {
     let heading = '';
     if (tasks.length > 0) {
-      heading = doneStatus ? 'Completed' : 'Your Tasks';
+      heading = doneStatus ? 'Completed Tasks' : 'Active Tasks';
     }
     return (
       <>
