@@ -11,16 +11,14 @@ function List() {
   const [todos, setTodos] = useState<Todo[]>([]);
 
   useEffect(() => {
-    const fetchData = async () => {
+    (async () => {
       try {
         const result = await getAllTodos();
         setTodos(result);
       } catch (error) {
         toast.error('Failed to fetch todos.');
       }
-    };
-
-    fetchData();
+    })();
   }, []);
 
   const handleDelete = async (id: string) => {

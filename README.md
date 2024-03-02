@@ -139,12 +139,20 @@ https://github.com/maheshpeechamkoli/vp-todo-api-services.git
 
 ![Folder structure](screenshot/todo-list.png)
 
+### Validate UI
+
+![Folder structure](screenshot/todo-validate.png)
+
 ### Add UI
 
 ![Folder structure](screenshot/todo-add.png)
 
-### Update
+### Update UI
 
 ![Folder structure](screenshot/todo-update.png)
+
+### Messages
+
+![Folder structure](screenshot/todo-success.png)
 
 ### THANK YOU SO MUCH
